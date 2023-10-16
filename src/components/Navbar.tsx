@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import MaxWidthWrapper from "../components/maxWidthWrapper";
+import MaxWidthWrapper from "./MaxWidthWrapper";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import { LoginLink, RegisterLink } from "@kinde-oss/kinde-auth-nextjs/server";
