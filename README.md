@@ -69,4 +69,3 @@ Put these in a `.env` file. `.env` is in `.gitignore`.
 ## Notes
 
 - The tRPC client URL is hardcoded to `http://localhost:3000/api/trpc` in `src/components/Providers.tsx`.
-- The component file is named `src/components/maxWidthWrapper.tsx`, but the code imports it as `MaxWidthWrapper`. That works on case-insensitive file systems such as macOS, but the build can fail on Linux.
